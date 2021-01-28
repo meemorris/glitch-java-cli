@@ -21,3 +21,6 @@ To run a Java command-line program as a project on [Glitch](https://glitch.com):
 ```
 * Build the jar by running `mvn clean package spring-boot:repackage`
 * Find the resulting jar in the target directory, rename it to `my_app.jar` and confirm it runs with `java -jar my_app.jar`
+
+## IMPORTANT NOTE
+Glitch currently only supports Java 8, so your jar file needs to be compatible with Java 8.
